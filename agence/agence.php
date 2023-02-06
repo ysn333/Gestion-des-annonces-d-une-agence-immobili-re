@@ -22,6 +22,401 @@
 
     <!-- TITLE -->
     <title>Document</title>
+
+    <style>
+       
+
+
+/* strat sabscribe */
+
+footer {
+    background-color: #000;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #fff;
+    font-size: 12px;
+    color: #0d6efd;
+}
+
+.bd-copyright-area-seven {
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+
+.bd-custom-container {
+    max-width: 1730px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
+.pb-10 {
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    color:#0d6efd;
+    margin-bottom: 10px;
+}
+
+
+
+:root {
+    --dark-color: #19283f;
+    --yellow-color : #FFDF65;
+    --black-color : #000 ;
+    --section-color : #BDDAE8 ;
+    --clr-common-white: #fff;
+    --clr-bg-gray: #F9F9F9;
+    --clr-bg-gray2: #EFEFEF;
+    --clr-border-4: #E5E5E5;
+    --clr-border-5: #D4D4D4;
+    --clr-border-6: #DFDFDF;
+}
+
+body {
+    font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+.bg-glass {
+	background: rgba(255, 255, 255, 0.6) !important;
+	backdrop-filter: blur(0px) !important;
+	-webkit-backdrop-filter: blur(0px) !important;
+	border: 1px solid rgba(255, 255, 255, 0.5) !important;
+	box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.37) !important;
+}
+.bg-glass:hover {
+		box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.17) !important;
+		transform: 1.1 !important;
+	}
+
+
+.bg-dark-glass {
+	background: rgba(0, 0, 0, 0.6) !important;
+	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
+	backdrop-filter: blur(0px) !important;
+	-webkit-backdrop-filter: blur(0px) !important;
+	color: white !important;
+}
+	.bg-dark-glass  li:hover {
+		background-color: white !important;
+	}
+
+	.bg-dark-glass:hover li:hover a {
+		color: black !important;
+	}
+
+
+   
+.collapse ul li a {
+        color: #000!important;
+    }
+    .search i{
+        color: var(--clr-bg-gray)!important;
+    }
+.navbar-brand img {
+    width: 39%;
+
+}
+.main-title {
+    width: 300px;
+    height: 500px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-title img {
+    width: 59%;
+}
+
+
+    
+    
+#btn-login {
+    color: aliceblue;
+    padding-left: 7px;
+    padding-right: 7px;
+    background-color: var(--section-color);
+    border: var(--section-color);
+    text-shadow: 2px 2px 5px rgb(173, 173, 173);
+    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@-webkit-keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  @keyframes shadow-drop-center {
+    0% {
+      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+    100% {
+      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
+    }
+  }
+  
+
+
+
+
+    
+    .main-btn {
+        border-color: var(--yellow-color);
+        color: #fff;
+        padding: 0,5rem 1rem;
+    }
+    
+    .main-btn:hover {
+        background-color: var(--yellow-color);
+        border-color: var(--yellow-color);
+    }
+    
+    /* .main-title::after {
+        content: '';
+        width: 128px;
+        height: 2px;
+        background-color: var(--yellow-color);
+        position: absolute;
+        bottom: -20px;
+        left: 50%;
+        transform: translate(-50%);
+    } */
+    /* Start Navbar */
+    .navbar {
+        background-color: transparent;
+        font-family: 'Rajdhani', sans-serif;
+    }
+    
+    
+.landing {
+    background-image:  url("https://www.visahq.com.eg/images/visa_info/russia-visa-application-requirements.jpg") ;
+    /* background-color: #cccccc;
+    minheight: calc(100vh - 282px); */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 567px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+    font-family: 'Rajdhani', sans-serif;
+    height: 300px;
+    margin-bottom: 100px;
+    margin-top: -100px;
+}
+
+
+#submit {
+    background-color: var(--section-color);
+}
+
+.img-thumbnail {
+    max-width: 306%!important;
+}
+
+
+/* input max_min */
+
+.header-ct h2 {
+    text-transform: capitalize;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+
+#break {
+  margin-left:50px;
+}
+
+.header-ct p,
+.by a {
+    color: #ffffff;
+}
+.by a:hover{
+  text-decoration:none;
+}
+
+
+.price-range-block {
+    margin:60px;
+}
+.ui-slider-horizontal {
+    height: .6em;
+}
+.ui-slider-horizontal {
+    margin-bottom: 15px;
+    width:40%;
+}
+.ui-widget-header {
+    background: #3FE331;
+}
+
+.price-range-search {
+    width:40.5%; 
+    background-color: #f9f9f9; 
+    border: 1px solid #6e6666;
+    min-width: 40%;
+    display: inline-block;
+    height: 32px;
+    border-radius: 5px;
+    float: left;
+    margin-bottom:20px;
+    font-size:16px;
+}
+.price-range-field{
+    width:20%; 
+    min-width: 16%;
+    background-color:#f9f9f9; 
+    border: 1px solid #6e6666; 
+    color: black; 
+    font-family: myFont; 
+    font: normal 14px Arial, Helvetica, sans-serif; 
+    border-radius: 5px; 
+    height:26px; 
+    padding:5px;
+}
+.search-results-block{
+    position: relative;
+    display: block;
+    clear: both;
+}
+
+
+
+label {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+
+
+.bd-copyright-six p {
+    font-size: 16px;
+    color:#0d6efd;
+    display: inline-block;
+    margin-bottom: 0px;
+}
+
+.bd-copyright-six p a:hover {
+    color: #BDDAE8;
+}
+
+a, button {
+    color: inherit;
+    outline: medium none;
+    text-decoration: none !important;
+      transition: all 0.3s ease-out 0s;
+}
+
+.bd-copyright-six p a {
+    font-weight: 600;
+    color:#6A6A6A;
+}
+
+.input-group {
+    margin-top: 22px!important;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.ps-4 {
+    padding-left: 2.5rem!important;
+}
+
+.bd-footer-widget-six-social a {
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #BDDAE8;
+    font-size: 16px;
+    color: #BDDAE8;
+    display: inline-block;
+    margin-right: 15px;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 1;
+    position: relative;
+}
+
+.bd-footer-widget-six-social a:hover {
+    border-color:#BDDAE8;
+    color:#fff;
+}
+
+.bd-footer-widget-six-social a:after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    transform: scale(0);
+    background: #BDDAE8;
+    z-index: -1;
+    -webkit-transition: all 0.3s ease-out 0s;
+    -moz-transition: all 0.3s ease-out 0s;
+    -ms-transition: all 0.3s ease-out 0s;
+    -o-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    border-radius: 50%;
+}
+
+.bd-footer-widget-six-social a:hover:after {
+    transform: scale(1);
+}
+
+.bd-footer-widget-six-social a:last-child {
+    margin-right: 0px;
+}
+
+.contact {
+    color: #000;
+}
+
+ul {
+    margin: 0px !important;
+    padding: 0px !important;
+}
+
+.bd-copyright-six ul li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 20px;
+    margin-right: 18px;
+    border-right: 1px solid #BDDAE8;
+}
+
+.bd-copyright-six ul li a {
+    font-size: 16px;
+    color: #fff;
+    line-height: 1;
+}
+
+.bd-copyright-six ul li a:hover {
+    color: #BDDAE8;
+}
+
+.bd-copyright-six ul li:last-child {
+    padding-right: 0px;
+    margin-right: 0px;
+    border-right: 0px;
+}
+
+  </style>
 </head>
 <body>
     
@@ -481,400 +876,7 @@
 
       }
     </script>
-  <style>
-       
-
-
-/* strat sabscribe */
-
-footer {
-    background-color: #000;
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #fff;
-    font-size: 12px;
-    color: #0d6efd;
-}
-
-.bd-copyright-area-seven {
-    padding-top: 32px;
-    padding-bottom: 20px;
-}
-
-
-.bd-custom-container {
-    max-width: 1730px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin: 0 auto;
-}
-
-.pb-10 {
-    padding-bottom: 10px;
-}
-
-p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 27px;
-    color:#0d6efd;
-    margin-bottom: 10px;
-}
-
-
-
-:root {
-    --dark-color: #19283f;
-    --yellow-color : #FFDF65;
-    --black-color : #000 ;
-    --section-color : #BDDAE8 ;
-    --clr-common-white: #fff;
-    --clr-bg-gray: #F9F9F9;
-    --clr-bg-gray2: #EFEFEF;
-    --clr-border-4: #E5E5E5;
-    --clr-border-5: #D4D4D4;
-    --clr-border-6: #DFDFDF;
-}
-
-body {
-    font-family: 'Rajdhani', sans-serif;
-
-}
-
-
-.bg-glass {
-	background: rgba(255, 255, 255, 0.6) !important;
-	backdrop-filter: blur(0px) !important;
-	-webkit-backdrop-filter: blur(0px) !important;
-	border: 1px solid rgba(255, 255, 255, 0.5) !important;
-	box-shadow: 0px 0px 5px 0 rgba(0, 0, 0, 0.37) !important;
-}
-.bg-glass:hover {
-		box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.17) !important;
-		transform: 1.1 !important;
-	}
-
-
-.bg-dark-glass {
-	background: rgba(0, 0, 0, 0.6) !important;
-	box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important;
-	backdrop-filter: blur(0px) !important;
-	-webkit-backdrop-filter: blur(0px) !important;
-	color: white !important;
-}
-	.bg-dark-glass  li:hover {
-		background-color: white !important;
-	}
-
-	.bg-dark-glass:hover li:hover a {
-		color: black !important;
-	}
-
-
-   
-.collapse ul li a {
-        color: #000!important;
-    }
-    .search i{
-        color: var(--clr-bg-gray)!important;
-    }
-.navbar-brand img {
-    width: 39%;
-
-}
-.main-title {
-    width: 300px;
-    height: 500px;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.main-title img {
-    width: 59%;
-}
-
-
-    
-    
-#btn-login {
-    color: aliceblue;
-    padding-left: 7px;
-    padding-right: 7px;
-    background-color: var(--section-color);
-    border: var(--section-color);
-    text-shadow: 2px 2px 5px rgb(173, 173, 173);
-    -webkit-animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: shadow-drop-center 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-}
-@-webkit-keyframes shadow-drop-center {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
-  @keyframes shadow-drop-center {
-    0% {
-      -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-              box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
-    }
-    100% {
-      -webkit-box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-              box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.35);
-    }
-  }
   
-
-
-
-
-    
-    .main-btn {
-        border-color: var(--yellow-color);
-        color: #fff;
-        padding: 0,5rem 1rem;
-    }
-    
-    .main-btn:hover {
-        background-color: var(--yellow-color);
-        border-color: var(--yellow-color);
-    }
-    
-    /* .main-title::after {
-        content: '';
-        width: 128px;
-        height: 2px;
-        background-color: var(--yellow-color);
-        position: absolute;
-        bottom: -20px;
-        left: 50%;
-        transform: translate(-50%);
-    } */
-    /* Start Navbar */
-    .navbar {
-        background-color: transparent;
-        font-family: 'Rajdhani', sans-serif;
-    }
-    
-    
-.landing {
-    background-image:  url("https://www.visahq.com.eg/images/visa_info/russia-visa-application-requirements.jpg") ;
-    /* background-color: #cccccc;
-    minheight: calc(100vh - 282px); */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 567px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; 
-    font-family: 'Rajdhani', sans-serif;
-    height: 300px;
-    margin-bottom: 100px;
-    margin-top: -100px;
-}
-
-
-#submit {
-    background-color: var(--section-color);
-}
-
-.img-thumbnail {
-    max-width: 306%!important;
-}
-
-
-/* input max_min */
-
-.header-ct h2 {
-    text-transform: capitalize;
-    margin: 20px 0px;
-    color: #ffffff;
-}
-
-#break {
-  margin-left:50px;
-}
-
-.header-ct p,
-.by a {
-    color: #ffffff;
-}
-.by a:hover{
-  text-decoration:none;
-}
-
-
-.price-range-block {
-    margin:60px;
-}
-.ui-slider-horizontal {
-    height: .6em;
-}
-.ui-slider-horizontal {
-    margin-bottom: 15px;
-    width:40%;
-}
-.ui-widget-header {
-    background: #3FE331;
-}
-
-.price-range-search {
-    width:40.5%; 
-    background-color: #f9f9f9; 
-    border: 1px solid #6e6666;
-    min-width: 40%;
-    display: inline-block;
-    height: 32px;
-    border-radius: 5px;
-    float: left;
-    margin-bottom:20px;
-    font-size:16px;
-}
-.price-range-field{
-    width:20%; 
-    min-width: 16%;
-    background-color:#f9f9f9; 
-    border: 1px solid #6e6666; 
-    color: black; 
-    font-family: myFont; 
-    font: normal 14px Arial, Helvetica, sans-serif; 
-    border-radius: 5px; 
-    height:26px; 
-    padding:5px;
-}
-.search-results-block{
-    position: relative;
-    display: block;
-    clear: both;
-}
-
-
-
-label {
-    font-family: 'Rajdhani', sans-serif;
-}
-
-
-
-.bd-copyright-six p {
-    font-size: 16px;
-    color:#0d6efd;
-    display: inline-block;
-    margin-bottom: 0px;
-}
-
-.bd-copyright-six p a:hover {
-    color: #BDDAE8;
-}
-
-a, button {
-    color: inherit;
-    outline: medium none;
-    text-decoration: none !important;
-      transition: all 0.3s ease-out 0s;
-}
-
-.bd-copyright-six p a {
-    font-weight: 600;
-    color:#6A6A6A;
-}
-
-.input-group {
-    margin-top: 22px!important;
-    font-family: 'Rajdhani', sans-serif;
-}
-
-.ps-4 {
-    padding-left: 2.5rem!important;
-}
-
-.bd-footer-widget-six-social a {
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    text-align: center;
-    border: 1px solid #BDDAE8;
-    font-size: 16px;
-    color: #BDDAE8;
-    display: inline-block;
-    margin-right: 15px;
-    border-radius: 50%;
-    overflow: hidden;
-    z-index: 1;
-    position: relative;
-}
-
-.bd-footer-widget-six-social a:hover {
-    border-color:#BDDAE8;
-    color:#fff;
-}
-
-.bd-footer-widget-six-social a:after {
-    position: absolute;
-    content: "";
-    height: 100%;
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    transform: scale(0);
-    background: #BDDAE8;
-    z-index: -1;
-    -webkit-transition: all 0.3s ease-out 0s;
-    -moz-transition: all 0.3s ease-out 0s;
-    -ms-transition: all 0.3s ease-out 0s;
-    -o-transition: all 0.3s ease-out 0s;
-    transition: all 0.3s ease-out 0s;
-    border-radius: 50%;
-}
-
-.bd-footer-widget-six-social a:hover:after {
-    transform: scale(1);
-}
-
-.bd-footer-widget-six-social a:last-child {
-    margin-right: 0px;
-}
-
-.contact {
-    color: #000;
-}
-
-ul {
-    margin: 0px !important;
-    padding: 0px !important;
-}
-
-.bd-copyright-six ul li {
-    list-style: none;
-    display: inline-block;
-    padding-right: 20px;
-    margin-right: 18px;
-    border-right: 1px solid #BDDAE8;
-}
-
-.bd-copyright-six ul li a {
-    font-size: 16px;
-    color: #fff;
-    line-height: 1;
-}
-
-.bd-copyright-six ul li a:hover {
-    color: #BDDAE8;
-}
-
-.bd-copyright-six ul li:last-child {
-    padding-right: 0px;
-    margin-right: 0px;
-    border-right: 0px;
-}
-
-  </style>
 
     <script>
       function confirm_rem(id) {
